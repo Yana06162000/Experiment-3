@@ -1,0 +1,53 @@
+//
+//  main.cpp
+//  exp3prob2
+//
+//  Created by Julia Sumague on 22/05/2019.
+//  Copyright © 2019 Julia Sumague. All rights reserved.
+//
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+
+    int aday1, aday2, aday3, aday4, aday5, aday6, aday7;
+    int bday1, bday2, bday3, bday4, bday5, bday6, bday7;
+    int cday1, cday2, cday3, cday4, cday5, cday6, cday7;
+    
+    cout << "Enter the temperature of Province A for 7 days: " << endl;
+    cin >> aday1 >> aday2 >> aday3 >> aday4 >> aday5 >> aday6 >> aday7;
+    
+    cout << "Enter the temperature of Province B for 7 days: " << endl;
+    cin >> bday1 >> bday2 >> bday3 >> bday4 >> bday5 >> bday6 >> bday7;
+    
+    cout << "Enter the temperature of Province C for 7 days: " << endl;
+    cin >> cday1 >> cday2 >> cday3 >> cday4 >> cday5 >> cday6 >> cday7;
+    
+    cout << "Province A, Day 1: " << aday1 << endl;
+    cout << "Province A, Day 2: " << aday2 << endl;
+    cout << "Province A, Day 3: " << aday3 << endl;
+    cout << "Province A, Day 4: " << aday4 << endl;
+    cout << "Province A, Day 5: " << aday5 << endl;
+    cout << "Province A, Day 6: " << aday6 << endl;
+    cout << "Province A, Day 7: " << aday7 << endl;
+    
+    cout << "Province B, Day 1: " << bday1 << endl;
+    cout << "Province B, Day 2: " << bday2 << endl;
+    cout << "Province B, Day 3: " << bday3 << endl;
+    cout << "Province B, Day 4: " << bday4 << endl;
+    cout << "Province B, Day 5: " << bday5 << endl;
+    cout << "Province B, Day 6: " << bday6 << endl;
+    cout << "Province B, Day 7: " << bday7 << endl;
+    
+    cout << "Province C, Day 1: " << bday1 << endl;
+    cout << "Province C, Day 2: " << bday2 << endl;
+    cout << "Province C, Day 3: " << bday3 << endl;
+    cout << "Province C, Day 4: " << bday4 << endl;
+    cout << "Province C, Day 5: " << bday5 << endl;
+    cout << "Province C, Day 6: " << bday6 << endl;
+    cout << "Province C, Day 7: " << bday7 << endl;
+    
+    return 0;
+}
