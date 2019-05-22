@@ -1,0 +1,56 @@
+//
+//  main.cpp
+//  exp3prob1
+//
+//  Created by Julia Sumague on 14/05/2019.
+//  Copyright © 2019 Julia Sumague. All rights reserved.
+//
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    double size[10];
+    int num, max, min;
+    double sum, average, largest, smallest;
+    
+    cout << "Enter 10 integers: " << endl;
+    
+        for (num = 0; num < 10; num++)
+        size[num] = 0.0;
+    
+        for (num = 0; num < 10; num++)
+        cin >> size[num];
+    
+        for (num = 0; num < 10; num++)
+        cout << size[num] << " ";
+    
+    cout << endl;
+    
+    sum = 0;
+        for (num = 0; num < 10; num++)
+        sum = sum + size[num];
+    
+    average = sum / 10;
+        cout << "Sum: " << sum << endl;
+        cout << "Average: " << average << endl;
+    
+    min = 0;
+        for (num = 1; num < 10; num++)
+        if (size[min] > size[num])
+            min = num;
+    
+    smallest = size[min];
+        cout << "Smallest: " << smallest << endl;
+    
+    max = 0;
+    for (num = 1; num < 10; num++)
+        if (size[max] < size[num])
+            max = num;
+    
+    largest = size[max];
+    cout <<  "Largest: " << largest << endl;
+    
+    return 0;
+}
