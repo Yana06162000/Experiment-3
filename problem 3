@@ -1,0 +1,32 @@
+//
+//  main.cpp
+//  probb3exp3
+//
+//  Created by Julia Sumague on 23/05/2019.
+//  Copyright © 2019 Julia Sumague. All rights reserved.
+//
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    char input[9];
+    
+    cout << "Please input any character (except for special characters): " << endl;
+    
+    for (int i = 0; i < 9; i++)
+    {
+        cin >> input[i];
+    }
+    
+    cout << endl;
+    cout << "Characters in reverse: " << endl;
+    
+    for (int c = 8; c >= 0; c--)
+    {
+        cout << input[c] << endl;
+    }
+    
+    return 0;
+}
